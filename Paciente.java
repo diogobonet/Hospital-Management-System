@@ -11,10 +11,9 @@ public class Paciente extends Pessoa{
                     String cpf,
                     String rg,
                     boolean plano_de_saude,
-                    Prontuario prontuario){
+                    Prontuario prontuario) {
         super(nome, data_nasc, sexo, endereco, telefone, email, cpf, rg);
         this.plano_de_saude = plano_de_saude;
         this.prontuario = prontuario;
     }
-    abstract cadastrar(){}
 }
